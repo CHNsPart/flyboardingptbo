@@ -7,7 +7,7 @@ export default function Hero() {
     <div className="relative w-full h-[80vh]">
       <Navbar/>
       <Image
-        src="/hero.jpg"
+        src="/hero-m.jpg"
         alt="Hero Background"
         layout="fill"
         objectFit="cover"

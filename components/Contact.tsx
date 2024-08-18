@@ -11,10 +11,10 @@ export default function Contact() {
           </div>
           
           <a
-            href="#"
+            href="tel:+17053152060"
             className="inline-block rounded-lg bg-red-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base"
           >
-            Start now
+            +1-705-315-2060
           </a>
         </div>
       </div>

@@ -4,7 +4,7 @@ import { FaPhoneAlt } from 'react-icons/fa'
 
 export default function Special() {
   return (
-    <div className="bg-white py-6 sm:py-8 lg:py-12">
+    <div className="w-full bg-white py-6 sm:py-8 lg:py-12">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
         <div className="flex flex-col overflow-hidden rounded-lg bg-zinc-950 sm:flex-row md:h-80">
           {/* content - start */}
