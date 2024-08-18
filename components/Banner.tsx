@@ -5,7 +5,7 @@ export default function Banner() {
   return (
     <div className='w-full p-5 flex gap-5 justify-center items-center bg-zinc-950 text-white'>
         <span className='flex items-center gap-2'>
-            <FaPhoneAlt className='text-red-500'/> +1-705-740-0221
+            <FaPhoneAlt className='text-red-500'/> +1-705-315-2060
         </span>
         <span className='flex items-center gap-2'>
             <FaBusinessTime className='text-red-500'/> Appointment Only
