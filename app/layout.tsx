@@ -19,6 +19,7 @@ interface SEOAttributes {
   twitterTitle: string;
   twitterDescription: string;
   twitterImage: string;
+  keywords: string;
 }
 
 const fontSans = FontSans({
@@ -30,6 +31,7 @@ export const metadata: SEOAttributes = {
   title: "FlyBoarding Peterborough",
   description: "Experience the Thrill of Flyboarding in Peterborough",
   charset: "UTF-8",
+  keywords: "flyboarding, water sports, Peterborough, extreme sports, water activities",
   viewport: "width=device-width, initial-scale=1.0",
   favicon: "/favicon.ico",
   ogUrl: "https://www.flyboardingptbo.ca",
@@ -57,6 +59,7 @@ export default function RootLayout({
         <meta name="description" content={metadata.description} />
         <title>{metadata.title}</title>
         <link rel="icon" href={metadata.favicon} />
+          <meta name="keywords" content={metadata.keywords} />
         {/* Open Graph */}
         <meta property="og:url" content={metadata.ogUrl} />
         <meta property="og:type" content={metadata.ogType} />
