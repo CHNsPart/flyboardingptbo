@@ -11,16 +11,16 @@ export default function Navbar() {
             height={200}
             width={200}
             alt='Logo'
-            className=''
+            className='size-20 md:size-44'
         />
-        <div className='flex items-center gap-5'>
-            <a href='#home' className='text-2xl font-bold text-white/50 hover:text-red-500'>
+        <div className='flex items-center gap-2 md:gap-5'>
+            <a href='#home' className='text-sm md:text-2xl font-bold text-white/50 hover:text-red-500'>
                 Home
             </a>
-            <a href='#home' className='text-2xl font-bold text-white/50 hover:text-red-500'>
+            <a href='#service' className='text-sm md:text-2xl font-bold text-white/50 hover:text-red-500'>
                 Service
             </a>
-            <a href='#home' className='text-2xl font-bold text-white/50 hover:text-red-500'>
+            <a href='#contact' className='text-sm md:text-2xl font-bold text-white/50 hover:text-red-500'>
                 Contact
             </a>
         </div>

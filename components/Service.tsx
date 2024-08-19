@@ -50,7 +50,7 @@ export default function Service() {
 
             <a
               href="tel:+17053152060"
-              className="block rounded-lg bg-gray-500 px-8 py-3 text-center text-sm font-semibold text-gray-100 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-600 focus-visible:ring active:text-gray-300 md:text-base"
+              className="block rounded-lg bg-gray-500 px-8 py-3 text-center text-sm font-semibold text-gray-100 outline-none ring-red-300 transition duration-100 hover:bg-gray-600 focus-visible:ring active:text-gray-300 md:text-base"
             >
               Call Now
             </a>
@@ -102,7 +102,7 @@ export default function Service() {
 
             <a
               href="tel:+17053152060"
-              className="block rounded-lg bg-indigo-200 bg-opacity-50 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-300 focus-visible:ring active:bg-indigo-400 md:text-base"
+              className="block rounded-lg bg-red-200 bg-opacity-50 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-red-300 transition duration-100 hover:bg-red-300 focus-visible:ring active:bg-red-400 md:text-base"
             >
               Call Now
             </a>
